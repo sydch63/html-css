@@ -1,9 +1,36 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 
 body, input, button, select, textarea {
   font-family: sans-serif;
 }
+
+.container {
+  width: 1140px;
+  max-width: 0 auto;
+}
+
+.top__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.indexh1 {
+  font-size: 64px;
+  color: #1F3F68;
+  width: 510px;
+}
+
+.top__info .paragraf {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F3F68;  
+  width: 425px;
+}
+
 
 .paragraf {
   font-size: 16px;
@@ -11,10 +38,6 @@ body, input, button, select, textarea {
   color: #1F3F68;
 }
 
-.indexh1 {
-  font-size: 64px;
-  color: #1F3F68;
-}
 
 .contacth2 {
   font-weight: 500;
@@ -52,4 +75,21 @@ body, input, button, select, textarea {
 	text-align: center;
 	color: #FFFFFF;
 	text-transform: uppercase;
+}
+
+
+.card {
+  display: flex;
+  width: 359px;
+}
+
+
+.card .h4all {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card .paragraf {
+  display: flex;
+  align-content: center;
 }
