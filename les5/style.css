@@ -77,19 +77,44 @@ body, input, button, select, textarea {
 	text-transform: uppercase;
 }
 
+.cardall {
+	display:flex;
+	justify-content: space-between;
+}
 
-.card {
-  display: flex;
-  width: 359px;
+.card1 {
+	display:flex;
+	width:356px;
+	flex-flow: wrap;
+}
+
+.card2 {
+	display:flex;
+	width:356px;
+	flex-flow: wrap;
+}
+
+.card3 {
+	display:flex;
+	width:356px;
+	flex-flow: wrap;
+}
+
+.footer_text {
+	width: 340px;
+}
+
+.container .paragraf {
+	width: 495px;
+}
+
+.footer__info {
+	display:flex;
+	justify-content: space-between;
+
 }
 
 
-.card .h4all {
-  display: flex;
-  align-items: flex-start;
-}
-
-.card .paragraf {
-  display: flex;
-  align-content: center;
+.contact__all {
+	display:flex;
 }
