@@ -10,7 +10,7 @@ body, input, button, select, textarea {
 
 .container {
   width: 1140px;
-  max-width: 0 auto;
+  margin: 0 auto;
 }
 
 .top__menu {
