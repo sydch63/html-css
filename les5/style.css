@@ -13,21 +13,18 @@ body, input, button, select, textarea {
   margin: 0 auto;
 }
 
-.top__menu {
+.header {
   display: flex;
   justify-content: space-between;
 }
 
-.indexh1 {
+.top__heading {
   font-size: 64px;
   color: #1F3F68;
   width: 510px;
 }
 
-.top__info .paragraf {
-  font-size: 16px;
-  line-height: 26px;
-  color: #1F3F68;  
+.top__text { 
   width: 425px;
 }
 
@@ -45,7 +42,7 @@ body, input, button, select, textarea {
   text-align: center;
 }
 
-.h3all {
+.heading {
   font-size: 36px;
   text-align: center;
 }
@@ -77,35 +74,18 @@ body, input, button, select, textarea {
 	text-transform: uppercase;
 }
 
-.cardall {
+.card-box {
 	display:flex;
 	justify-content: space-between;
 }
 
-.card1 {
-	display:flex;
+.card {
 	width:356px;
-	flex-flow: wrap;
 }
 
-.card2 {
-	display:flex;
-	width:356px;
-	flex-flow: wrap;
-}
-
-.card3 {
-	display:flex;
-	width:356px;
-	flex-flow: wrap;
-}
 
 .footer_text {
 	width: 340px;
-}
-
-.container .paragraf {
-	width: 495px;
 }
 
 .footer__info {
@@ -115,6 +95,10 @@ body, input, button, select, textarea {
 }
 
 
-.contact__all {
+.main {
 	display:flex;
+}
+
+.message {
+	display: flex;
 }
