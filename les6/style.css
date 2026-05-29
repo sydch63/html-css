@@ -77,6 +77,13 @@ body, input, button, select, textarea {
   opacity: 0.6;
 }
 
+.text_project {
+  width: 75%;
+  margin: 32px auto 64px;
+  color: #222222;
+  opacity: 1;
+  text-align: center;
+}
 
 .contacth2 {
   font-weight: 500;
@@ -146,8 +153,9 @@ body, input, button, select, textarea {
 
 .card__img {
   align-self: center;
-  margin-bottom: 14px;
   width: 200px;
+  height: 200px;
+  margin-bottom: 14px;
 }
 
 .card__link {
