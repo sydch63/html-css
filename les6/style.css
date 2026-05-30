@@ -122,6 +122,7 @@ body, input, button, select, textarea {
   text-align: center;
   line-height: 46px;
   font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
 .heading-mini {
@@ -167,16 +168,138 @@ body, input, button, select, textarea {
   padding-top: 14px;
 }
 
+
+.project {
+
+}
+
+.project__item {
+  position:relative;
+  flex-grow: 1;
+}
+
+.project__img{
+  width: 100%;
+}
+
+.project__text{
+  font-size: 32px;
+  line-height: 46px;
+  color: #ffffff;
+  text-align: right;
+  letter-spacing: 0.05em;
+  position: absolute;
+  top: 64px ;
+  right: 64px;
+}
+
+.project__parent{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.project__item_margin{
+  margin-right: 32px;
+}
+
+.project__text_left{
+  top: 35px;
+  left: 40px;
+  right: auto;
+}
+
+.footer {
+  background: #316099;
+  padding-top: 91px;
+  padding-bottom: 64px;
+  margin-top: 112px;
+}
+
+.footer__top{
+  padding-bottom: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer_text {
-	width: 340px;
+	width: 495px;
+}
+
+.footer__heading {
+  width: 340px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.text_footer{
+  color: #ffffff;
+}
+
+.footer__button{
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding: 15px 80px;
+  background: #5a98d0;
+  text-decoration: none;
+}
+
+hr {
+  opacity: 0.4;
 }
 
 .footer__info {
 	display:flex;
 	justify-content: space-between;
-
+  margin-top: 64px;
 }
 
+.footer__list {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color:#ffffff;
+  flex-grow: 1;
+  flex-basis: 33.3%;
+  list-style-type: none;
+  display: flex;
+  margin-right: 32px;
+}
+
+.footer__list:first-child::before{
+  content: "A.";
+  display: block;
+  margin-right: 16px;
+}
+
+.footer__list:nth-child(2)::before{
+  content: "T.";
+  display: block;
+  margin-right: 16px;
+}
+
+.footer__list:last-child::before{
+  content: "E.";
+  display: block;
+  margin-right: 16px;
+}
+
+.footer__copy{
+  margin-top: 64px;
+}
+
+.footer__copy-text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.4;
+}
 
 .main {
 	display:flex;
