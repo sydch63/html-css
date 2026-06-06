@@ -8,13 +8,19 @@ body, input, button, select, textarea {
   font-family: "Roboto" ,sans-serif;
 }
 
+.wrapper{
+	display: flex;
+	flex-direction:column;
+	min-height:100vh;
+}
+
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 .top {
-  height: 768px;
+  min-height: 768px;
   background: linear-gradient(0.0deg, #ebf3fb 8.84%, rgb(152,195,232,0) 31.12%);
 }
 
@@ -37,6 +43,7 @@ body, input, button, select, textarea {
   background-image: url(image/top_back.png);
   background-repeat: no-repeat;
   background-position: right center;
+  background-size: 44%;
 }
 
 .top__button {
@@ -307,4 +314,104 @@ hr {
 
 .message {
 	display: flex;
+}
+
+@media (max-width: 1024px) {
+	.container{
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+	
+	.top__info {
+		background-position: right 280px;
+	}
+	
+	.card-box {
+		flex-direction:column;
+		align-items: center;
+	}
+	
+	.card {
+		margin-bottom: 32px;
+	}
+}
+
+@media (max-width: 667px) {
+	.header{
+		padding-top: 24px;
+	}
+	
+	.top {
+		min-height: 376px;
+		padding-bottom: 41px;
+		box-sizing: border-box;
+	}
+	
+	.top__info {
+		padding-top: 36px;
+		display: flex;
+		flex-direction:column ;
+		align-items: center;
+		background-image: none;
+	}
+	
+	.top__heading {
+		width: 100%;
+		font-size: 32px;
+		line-height: 37px;
+		margin-bottom: 12px;
+		text-align: center;
+	}
+	
+	.top__text {
+		width: 100%
+	}
+	
+	.top__button {
+		font-size: 12px;
+		line-height: 26px;
+		padding: 0 8px; 
+	}
+	
+	
+	.heading {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	
+	.what-we-do{
+		padding-top: 48px;
+	}
+	
+	.card-box{
+		padding-top:32px;
+	}
+	
+	.card {
+		width: 100%
+	}
+	
+	.text_project {
+		width:100%;
+	}
+		
+	.project__text {
+		font-size: 16px;
+		line-height:19px;
+		top:16px;
+		right:16px;
+	}
+	
+	.project__text_left{
+		left:16px;
+	}
+	.project__parent{
+		flex-direction:column;
+		margin-top: 16px;
+	}
+	
+	.project__item_margin {
+		margin-right:0;
+		margin-bottom:16px;
+	}
 }
