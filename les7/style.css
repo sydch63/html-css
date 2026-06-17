@@ -358,6 +358,10 @@ hr {
     padding-left: 92px;
  }
 
+   .footer__list {
+    margin-bottom: 24px;
+  }
+
  .footer__list:first-child::before{
     padding-bottom: 20px;
     margin-right: 43px;
@@ -471,18 +475,20 @@ hr {
   }
 
   .footer__top{
-    display: flex;
     flex-direction: column;
-    padding-bottom: 39px;
+    padding-bottom: 41px;
     height: 315px;
     justify-content: space-around;
   }
 
   .footer_text {
-    padding: 0px;
+    width: 100%;;
+    padding: 0;
   }
   
   .footer__heading {
+    width: 75%;
+    margin:  0 auto 32px;
     font-size: 24px;
     text-align: center;
   }
@@ -492,6 +498,7 @@ hr {
     line-height: 26px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 40px;
   }
 
   .footer__button {
@@ -503,6 +510,9 @@ hr {
     padding: 0px;
   }
 
+  .footer__list {
+    margin-bottom: 18px;
+  }
 
   .footer__list:first-child::before{
   content: "1.";
